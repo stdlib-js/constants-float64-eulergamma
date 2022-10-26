@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# Euler-Mascheroni Constant
+# EULERGAMMA
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -64,15 +64,15 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 ## Usage
 
 ```javascript
-var GAMMA = require( '@stdlib/constants-float64-eulergamma' );
+var EULERGAMMA = require( '@stdlib/constants-float64-eulergamma' );
 ```
 
-#### GAMMA
+#### EULERGAMMA
 
 The [Euler-Mascheroni][eulergamma] constant.
 
 ```javascript
-var bool = ( GAMMA === 0.5772156649015329 );
+var bool = ( EULERGAMMA === 0.5772156649015329 );
 // returns true
 ```
 
@@ -89,15 +89,69 @@ var bool = ( GAMMA === 0.5772156649015329 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var GAMMA = require( '@stdlib/constants-float64-eulergamma' );
+var EULERGAMMA = require( '@stdlib/constants-float64-eulergamma' );
 
-console.log( GAMMA );
+console.log( EULERGAMMA );
 // => 0.5772156649015329
 ```
 
 </section>
 
 <!-- /.examples -->
+
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/eulergamma.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_EULERGAMMA
+
+Macro for the [Euler-Mascheroni][eulergamma] constant.
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
