@@ -63,7 +63,7 @@ The [Euler-Mascheroni][eulergamma] constant `gamma` (also known as "Euler's cons
 ## Usage
 
 ```javascript
-import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@esm/index.mjs';
+import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@v0.1.1-esm/index.mjs';
 ```
 
 #### EULERGAMMA
@@ -93,7 +93,7 @@ var bool = ( EULERGAMMA === 0.5772156649015329 );
 <body>
 <script type="module">
 
-import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@esm/index.mjs';
+import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@v0.1.1-esm/index.mjs';
 
 console.log( EULERGAMMA );
 // => 0.5772156649015329
