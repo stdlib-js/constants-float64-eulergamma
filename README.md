@@ -63,6 +63,11 @@ The [Euler-Mascheroni][eulergamma] constant `gamma` (also known as "Euler's cons
 ## Usage
 
 ```javascript
+import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-eulergamma/tags). For example,
+
+```javascript
 import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@v0.2.0-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ var bool = ( EULERGAMMA === 0.5772156649015329 );
 <body>
 <script type="module">
 
-import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@v0.2.0-esm/index.mjs';
+import EULERGAMMA from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eulergamma@esm/index.mjs';
 
 console.log( EULERGAMMA );
 // => 0.5772156649015329
