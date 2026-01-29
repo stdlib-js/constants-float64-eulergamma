@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2026-01-29)
 
 <section class="issues">
 
@@ -24,7 +24,8 @@ This release closes the following issue:
 
 <details>
 
--   [`3275ec2`](https://github.com/stdlib-js/stdlib/commit/3275ec2fd4cadcb50d5191fda88ffa78fbf3b831) - **chore:** update test messages in `constants/float64` [(#6728)](https://github.com/stdlib-js/stdlib/pull/6728) _(by Harsh)_
+-   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`3275ec2`](https://github.com/stdlib-js/stdlib/commit/3275ec2fd4cadcb50d5191fda88ffa78fbf3b831) - **chore:** update test messages in `constants/float64` [(#6728)](https://github.com/stdlib-js/stdlib/pull/6728) _(by Harsh Yadav)_
 -   [`f4bf6e6`](https://github.com/stdlib-js/stdlib/commit/f4bf6e691a0617ac2ffa97514a20f23b62b5ccce) - **chore:** use consistent naming in `constants/float64/eulergamma` [(#6228)](https://github.com/stdlib-js/stdlib/pull/6228) _(by Gautam sharma)_
 
 </details>
@@ -37,10 +38,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Gautam sharma
--   Harsh
+-   Harsh Yadav
+-   Philipp Burckhardt
 
 </section>
 
